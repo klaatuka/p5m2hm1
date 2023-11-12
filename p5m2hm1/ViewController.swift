@@ -59,7 +59,7 @@ class ViewController: UIViewController {
   
     lazy var btnGo: UIButton = {
         let btn = UIButton(primaryAction: action)
-        btn.frame = CGRect(x: 30, y: 439, width: 340, height: 54)
+        btn.frame = CGRect(x: 30, y: 439, width: 320, height: 54)
         btn.backgroundColor = #colorLiteral(red: 0, green: 0.6066274047, blue: 1, alpha: 1)
         btn.setTitle("расчитать", for: .normal)
         btn.tintColor = .white
