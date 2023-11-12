@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     }()
     
     lazy var rLabel = {
-       let label = UILabel(frame: CGRect(x: 0, y: 243, width: 200, height: 60))
+        let label = UILabel(frame: CGRect(x: 0, y: 243, width: view.frame.width, height: 60))
         label.textColor = .black
         label.font = .systemFont(ofSize: 46)
         label.textAlignment = .center
